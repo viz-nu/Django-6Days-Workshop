@@ -1,0 +1,45 @@
+DummyProject/
+    manage.py
+    myproject/
+        __init__.py
+        settings.py
+        urls.py
+        asgi.py
+        wsgi.py
+    myapp/
+        __init__.py
+        admin.py
+        apps.py
+        models.py
+        tests.py
+        views.py
+        migrations/
+            __init__.py
+
+
+
+manage.py: This is a command-line utility that comes with Django and is used to perform various tasks such as starting the development server, creating database tables, and running tests.
+
+DummyProject/: This is the main folder for your Django project. It contains the project’s settings and configuration files.
+
+__init__.py: This file is an empty file that tells Python that this folder should be treated as a Python package.
+
+settings.py: This file contains the settings for your Django project, including things like database configuration, static file directories, and installed apps.
+
+urls.py: This file contains the URL patterns for your project. It maps URLs to specific views that will be responsible for handling those requests.
+
+asgi.py and wsgi.py: These are files that are used to deploy your Django application on a web server. They contain the configuration for the ASGI and WSGI servers respectively.
+
+myapp1/: This is a folder that contains your Django application’s code.
+
+admin.py: This file is used to define the Django admin interface for your application.
+
+apps.py: This file is used to define the configuration for your application.
+
+models.py: This file is used to define the data models for your application. It contains the classes that represent the database tables and their relationships.
+
+tests.py: This file is used to write tests for your application.
+
+views.py: This file contains the views for your application. Views are responsible for rendering HTML templates and returning HTTP responses.
+
+migrations/: This is a folder that contains the database migrations for your application. Migrations are used to keep track of changes to your application’s data models and apply those changes to the database.
